@@ -1,0 +1,28 @@
+
+
+public class TryDemo {
+
+	public static void main(String[] args) {
+	
+		
+		int a=10,b=0;
+		
+		int x;
+		
+		try {
+			
+		x=a/b;
+		
+		
+		}catch(Exception e){
+			
+			
+		System.out.println(e.getmessage());
+			
+		}
+		
+		System.out.println(x);
+
+	}
+
+}
